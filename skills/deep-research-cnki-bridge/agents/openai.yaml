@@ -1,0 +1,13 @@
+interface:
+  display_name: "CNKI Deep Research Bridge"
+  short_description: "Bridge Deep Research to CNKI-backed Chinese citations with safe versioned patching."
+  default_prompt: "Use $deep-research-cnki-bridge to scan my Deep Research draft, retrieve authoritative CNKI Chinese literature, prepare GB/T 7714-2015 author-year supplements, and if I authorize direct integration, write a numbered derivative copy in output using the pattern {filename} - v# instead of overwriting my original draft."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "cnki-mcp"
+      description: "Retrieve Chinese article metadata and detailed records from CNKI."
+
+policy:
+  allow_implicit_invocation: true
