@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mathpix Paper Translate"
+  short_description: "Zero-loss Mathpix paper translation and validation."
+  default_prompt: "Use $mathpix-paper-translate to translate this Mathpix Markdown paper into Chinese and validate it."
