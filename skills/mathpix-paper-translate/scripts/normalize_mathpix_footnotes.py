@@ -77,7 +77,6 @@ def normalize_footnotes(text: str):
         while i < len(lines):
             nxt = lines[i]
             if nxt.strip() == "":
-                block.append(nxt)
                 block_line_count += 1
                 i += 1
                 continue
@@ -110,7 +109,7 @@ def normalize_footnotes(text: str):
     return output, {
         "footnote_count": footnote_count,
         "flattened_count": flattened_count,
-        "removed_leading_marker_count": removed_leleading_marker_count,
+        "removed_leading_marker_count": removed_leading_marker_count,
         "changed_ids": changed_ids,
     }
 
