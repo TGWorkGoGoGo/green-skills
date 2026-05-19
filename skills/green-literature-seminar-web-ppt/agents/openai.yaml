@@ -1,0 +1,8 @@
+interface:
+  display_name: "Green Literature Seminar Web PPT"
+  short_description: "根据文献PDF和汇报时长生成中文组会网页PPT与讲稿"
+  brand_color: "#0F766E"
+  default_prompt: "Use $green-literature-seminar-web-ppt to prepare a Chinese literature group-meeting web PPT and speech script from this paper PDF; ask for the duration if I did not provide it."
+
+policy:
+  allow_implicit_invocation: true
